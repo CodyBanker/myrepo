@@ -1,5 +1,2 @@
 #!/bin/sh
-
-echo ":Good afternoon!"
-read input
-echo "Hello \"$input\""
+echo "this has been written via cloud-init" + $(date) >> /tmp/myScript.txt
