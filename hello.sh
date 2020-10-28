@@ -1,13 +1,5 @@
 #!/bin/sh
-#test script
 
-TIME=$(date "+%k")
-
-if ((TIME < 12 )); then
-    echo "Good morning"
-elif ((TIME < 18 )); then
-    echo "Good afternoon"
-else
-    echo "Good evening"
-fi
-
+echo ":Enter Greeting"
+read input
+echo "Hello \"$input\""
