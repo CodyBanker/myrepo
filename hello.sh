@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo ":Enter Greeting"
+echo ":Good afternoon!"
 read input
 echo "Hello \"$input\""
