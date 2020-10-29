@@ -202,4 +202,4 @@ chown -R $5.$5 .*
 echo "ALL DONE!" >> /home/$5/install.progress.txt
 /bin/date +%H:%M:%S >> /home/$5/install.progress.txt
 
-echo "Welcome $(whoami)"
+echo "Welcome $(whoami)" >>/home/$
